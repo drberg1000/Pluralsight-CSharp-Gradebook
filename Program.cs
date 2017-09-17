@@ -13,8 +13,7 @@ namespace Grades
             GradeBook g1 = new GradeBook();
             GradeBook g2 = g1;
 
-            g1 = new GradeBook();
-            g1.Name = "Dave's Book";
+           GiveBookAName(g1);
 
             Console.WriteLine(g1.Name);
             Console.WriteLine(g2.Name);
